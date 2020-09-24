@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahre</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-firestore.js"></script>
+<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+<link rel="stylesheet" href="https://ez-css.now.sh">
+</head>
+<body>
+    <div id="login"></div>
+    <div id="loader">Loading...</div>
+    <form id="form" style="display: none;">
+        <input type="text" name="item">
+        <button type="submit">add</button>
+    </form>
+    <pre id="latest-data"></pre>
+    
+    <script src="js/app.js" type='module'></script>
+</body>
+</html>
